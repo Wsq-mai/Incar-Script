@@ -5,6 +5,7 @@ from urllib import error
 from bs4 import BeautifulSoup
 import os
 import urllib
+from pypinyin import lazy_pinyin
 num = 0
 numPicture = 0
 file = ''
@@ -60,6 +61,8 @@ def dowmloadPicture(html, keyword):
     # t =0
     pic_url = re.findall('"thumbURL":"(.*?)"', html, re.S)  # 先利用正则表达式找到图片url
     print('找到关键词:' + keyword + '的图片，即将开始下载图片...')
+    py=lazy_pinyin(keyword)
+    py=''.join(py)
     for each in pic_url:
         print('正在下载第' + str(num + 1) + '张图片，图片地址:' + str(each))
         try:
@@ -71,7 +74,7 @@ def dowmloadPicture(html, keyword):
             print('错误，当前图片无法下载')
             continue
         else:
-            string = file + r'\\' + keyword + '_' + str(num) + '.jpg'
+            string = file + r'\\' + py  + str(num) + '.jpg'
             fp = open(string, 'wb')
             fp.write(pic.content)
             fp.close()
@@ -88,7 +91,7 @@ if __name__ == '__main__':  # 主函数入口
     ###############################
     word = input("请输入搜索关键词(可以是人名，地名等): ")
     # add = 'http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&word=%E5%BC%A0%E5%A4%A9%E7%88%B1&pn=120'
-    url_init_first = r'https://www.bing.com/images/search?q='
+    url_init_first = r'http://image.baidu.com/search/flip?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1497491098685_R&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&ctd=1497491098685%5E00_1519X735&word='
     url = url_init_first + word
     print(url)
     html=requests.get(url,headers = hea)
