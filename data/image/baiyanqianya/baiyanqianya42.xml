@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>白眼潜鸭</folder>
+<filename>QQ截图20201118173817.jpg</filename>
+<path>H:\data\bird\鸟类图片\鸟类\白眼潜鸭\QQ截图20201118173817.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1065</width>
+    <height>526</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>633</xmin>
+        <ymin>270</ymin>
+        <xmax>735</xmax>
+        <ymax>331</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>710</xmin>
+        <ymin>273</ymin>
+        <xmax>797</xmax>
+        <ymax>313</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>779</xmin>
+        <ymin>265</ymin>
+        <xmax>836</xmax>
+        <ymax>311</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>781</xmin>
+        <ymin>236</ymin>
+        <xmax>839</xmax>
+        <ymax>295</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>614</xmin>
+        <ymin>247</ymin>
+        <xmax>701</xmax>
+        <ymax>299</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>353</xmin>
+        <ymin>240</ymin>
+        <xmax>462</xmax>
+        <ymax>313</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>195</xmin>
+        <ymin>274</ymin>
+        <xmax>304</xmax>
+        <ymax>324</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>165</xmin>
+        <ymin>244</ymin>
+        <xmax>265</xmax>
+        <ymax>287</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>47</xmin>
+        <ymin>262</ymin>
+        <xmax>147</xmax>
+        <ymax>309</ymax>
+    </bndbox>
+</object>
+</annotation>

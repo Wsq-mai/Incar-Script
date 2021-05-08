@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>白眼潜鸭</folder>
+<filename>QQ截图20201119090201.jpg</filename>
+<path>H:\data\bird\鸟类图片\鸟类\白眼潜鸭\QQ截图20201119090201.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1119</width>
+    <height>562</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>102</xmin>
+        <ymin>338</ymin>
+        <xmax>310</xmax>
+        <ymax>454</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>308</xmin>
+        <ymin>339</ymin>
+        <xmax>481</xmax>
+        <ymax>430</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>586</xmin>
+        <ymin>308</ymin>
+        <xmax>807</xmax>
+        <ymax>422</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>白眼潜鸭</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>696</xmin>
+        <ymin>306</ymin>
+        <xmax>907</xmax>
+        <ymax>398</ymax>
+    </bndbox>
+</object>
+</annotation>
