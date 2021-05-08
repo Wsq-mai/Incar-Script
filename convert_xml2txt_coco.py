@@ -140,7 +140,7 @@ org_lable_path ='F:/Code/python_vscode/data/Annotations/bird/' #存放XML数据�
 #F:/AIdata/鸟类/bird/罗纹鸭/
 #F:/Code/python_vscode/yolo/coco/xml/中专/
 
-
+#测试
 #存放XML数据的文件夹,注意：在子目录中
 
 image_ids_items = [f for f in os.listdir(org_lable_path)]
